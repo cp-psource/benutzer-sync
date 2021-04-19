@@ -5,6 +5,6 @@
 	</p>
 	<p>
 		<strong class="privacy-policy-tutorial"><?php esc_html_e( 'Vorgeschlagener Text: ', 'user-sync' ); ?></strong>
-		<?php _e( 'Wenn Sie Ihre Benutzerinformationen auf unserer Website registrieren oder aktualisieren, werden Ihre Benutzerdaten auf folgenden Websites synchronisiert: example1.com, example2.com, example3.com. Die synchronisierten Informationen umfassen: Benutzername, Vorname, Nachname, E-Mail usw.', 'user-sync' ); ?>
+		<?php _e( 'Wenn Du Deine Benutzerinformationen auf unserer Webseite registrierst oder aktualisierst, werden Deine Benutzerdaten auf folgenden Webseiten synchronisiert: example1.com, example2.com, example3.com. Die synchronisierten Informationen umfassen: Benutzername, Vorname, Nachname, E-Mail usw.', 'user-sync' ); ?>
 	</p>
 </div>
