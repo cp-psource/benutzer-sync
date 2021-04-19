@@ -28,8 +28,8 @@
                                url: "<?php echo $user_sync_siteur;?>/wp-admin/admin-ajax.php",
                                data: "action=user_sync_settings&url=" + sub_url + "&replace_user=" + replace_user + "&overwrite_user=" + overwrite_user,
                                success: function(){
-                                 jQuery( "input[value=Save]" ).val( 'Edit' );
-                                 jQuery( "input[value=Edit]" ).attr( 'disabled', false );
+                                 jQuery( "input[value=Save]" ).val( 'Bearbeiten' );
+                                 jQuery( "input[value=Bearbeiten]" ).attr( 'disabled', false );
                                  jQuery( "#loading_" + id ).hide();
                                }
                              });
@@ -43,22 +43,22 @@
                         jQuery( "#sub_list input.sett" ).attr( 'disabled', true );
                         jQuery( "#sub_list label" ).attr( 'class', 'description' );
 
-                        if ( "Edit" == jQuery( this ).val() ) {
+                        if ( "Bearbeiten" == jQuery( this ).val() ) {
                             jQuery( "#settings_" + id + " input" ).attr( 'disabled', false );
                             jQuery( "#settings_" + id + " label" ).attr( 'class', '' );
                             jQuery( this ).val('Close');
-                            jQuery( "input[value=Edit]" ).attr( 'disabled', true );
+                            jQuery( "input[value=Bearbeiten]" ).attr( 'disabled', true );
                             return;
                         }
 
                         if ( "Close" == jQuery( this ).val() ) {
-                            jQuery( this ).val('Edit');
-                            jQuery( "input[value=Edit]" ).attr( 'disabled', false );
+                            jQuery( this ).val('Bearbeiten');
+                            jQuery( "input[value=Bearbeiten]" ).attr( 'disabled', false );
                             return;
                         }
                     };
 
-                    jQuery( "#sub_list label" ).click(function () {
+                    jQuery( "#sub_list label" ).on("click", function () {
                         if ( ! jQuery( this ).find( 'input.sett' ).attr( 'disabled' ) ) {
                             jQuery( "input[value=Close]" ).val( 'Save' );
                         }
@@ -70,18 +70,18 @@
 
 
                     //uninstall plugin options
-                    jQuery( "#uninstall_yes" ).click( function() {
+                    jQuery( "#uninstall_yes" ).on("click", function() {
                         jQuery( "#usync_action" ).val( "uninstall" );
                         jQuery( "#user_sync_form" ).submit();
                         return false;
                     });
 
-                    jQuery( "#uninstall" ).click( function() {
+                    jQuery( "#uninstall" ).on("click", function() {
                         jQuery( "#uninstall_confirm" ).show( );
                         return false;
                     });
 
-                    jQuery( "#uninstall_no" ).click( function() {
+                    jQuery( "#uninstall_no" ).on("click", function() {
                         jQuery( "#uninstall_confirm" ).hide( );
                         return false;
                     });
@@ -198,7 +198,7 @@
                             </div>
                         </td>
                         <td style="vertical-align: middle;">
-                        <input type="button" class="button button-secondary" name="edit_button" id="actin_button_<?php echo $user_sync_i;?>" value="Edit" onclick="jQuery(this).editSettings( <?php echo $user_sync_i;?> );" />
+                        <input type="button" class="button button-secondary" name="edit_button" id="actin_button_<?php echo $user_sync_i;?>" value="Bearbeiten" onclick="jQuery(this).editSettings( <?php echo $user_sync_i;?> );" />
                         </td>
                     </tr>
                 <?php

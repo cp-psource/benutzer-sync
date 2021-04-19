@@ -27,18 +27,18 @@
 
 
                     //uninstall plugin options
-                    jQuery( "#uninstall_yes" ).click( function() {
+                    jQuery( "#uninstall_yes" ).on("click", function() {
                         jQuery( "#usync_action" ).val( "uninstall" );
                         jQuery( "#user_sync_form" ).submit();
                         return false;
                     });
 
-                    jQuery( "#uninstall" ).click( function() {
+                    jQuery( "#uninstall" ).on("click", function() {
                         jQuery( "#uninstall_confirm" ).show( );
                         return false;
                     });
 
-                    jQuery( "#uninstall_no" ).click( function() {
+                    jQuery( "#uninstall_no" ).on("click", function() {
                         jQuery( "#uninstall_confirm" ).hide( );
                         return false;
                     });

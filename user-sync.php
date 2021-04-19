@@ -3,14 +3,14 @@
 Plugin Name: Benutzer Synchronisation
 Plugin URI: https://n3rds.work/piestingtal-source-project/ps-benutzer-sync/
 Description: Benutzersynchronisierung - Mit diesem Plugin kannst Du eine Master-Seite erstellen, von der aus Du eine Benutzerliste mit beliebig vielen anderen Seiten synchronisieren kannst. Sobald diese aktiviert ist, kannst Du <a href="admin.php?page=user-sync">hier starten</a>
-Version: 1.2.0
+Version: 1.2.1
 Author: WMS N@W
 Author URI: https://n3rds.work
 Text Domain: user-sync
 Domain Path: /languages
 
 
-Copyright 2020 WMS N@W (https://n3rds.work)
+Copyright 2020-2021 WMS N@W (https://n3rds.work)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License (Version 2 - GPLv2) as published by
@@ -26,7 +26,12 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-
+require 'dash-notice/psource-plugin-update/plugin-update-checker.php';
+$MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=benutzer-sync', 
+	__FILE__, 
+	'benutzer-sync' 
+);
 /**
 * Plugin main class
 **/
@@ -1069,9 +1074,3 @@ class User_Sync {
 
 $user_sync = new User_Sync();
 
-require 'dash-notice/plugin-update-checker/plugin-update-checker.php';
-$MyUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://n3rds.work//wp-update-server/?action=get_metadata&slug=benutzer-sync', 
-	__FILE__, 
-	'benutzer-sync' 
-);
