@@ -6,43 +6,43 @@ Erstelle und verwalte Benutzerkonten auf einer Hauptliste, mit der Du eine Verbi
 
 ### Intelligente, sichere, Benutzerverwaltung
 
-Durch die gemeinsame Nutzung und Synchronisierung von Profil, Kennwort, Benutzerrolle und E-Mail-Adresse wird die Benutzerverwaltung an einen praktischen Ort verschoben. Verbinden Sie mehr Personen mit mehr Inhalten, indem Sie Benutzern erlauben, sich einmal in einer Hauptliste zu registrieren und dieselben Anmeldeinformationen für alle angehängten Websites zu verwenden. Schützen Sie Ihre Benutzer mit kugelsicheren Sicherheitsschlüsseln. Lassen Sie Websites für die fortlaufende Kontinuität verbunden oder übertragen Sie Benutzer und trennen Sie die Verbindung. Verwenden Sie die Deinstallation und löschen Sie Ihre Datenbank vollständig von Plugin-Artefakten.
+Durch die gemeinsame Nutzung und Synchronisierung von Profil, Kennwort, Benutzerrolle und E-Mail-Adresse wird die Benutzerverwaltung an einen praktischen Ort verschoben. Verbinde mehr Personen mit mehr Inhalten, indem Du Benutzern erlaubst, sich einmal in einer Hauptliste zu registrieren und dieselben Anmeldeinformationen für alle angehängten Webseiten zu verwenden. Schütze Deine Benutzer mit kugelsicheren Sicherheitsschlüsseln. Lasse Webseiten für die fortlaufende Kontinuität verbunden oder übertrage Benutzer und trenne die Verbindung. Verwende die Deinstallation und lösche Deine Datenbank vollständig von Plugin-Artefakten.
 
 
 ### Hebelkontrolle  und Einfachheit
 
-Die Konfiguration dauert nur wenige Sekunden und erfordert nur eine URL und einen Sicherheitsschlüssel. Verwenden Sie Synchronize-Overwrite für eine identische Übereinstimmung mit der Hauptliste oder unterstützen Sie die Kompatibilität mit Rückwärtsbenutzerkennwörtern auf vorhandenen Websites, indem Sie Duplikate zulassen.
+Die Konfiguration dauert nur wenige Sekunden und erfordert nur eine URL und einen Sicherheitsschlüssel. Verwende Synchronize-Overwrite für eine identische Übereinstimmung mit der Hauptliste oder unterstütze die Kompatibilität mit Rückwärtsbenutzerkennwörtern auf vorhandenen Webseiten, indem Du Duplikate zulässt.
 
 
-Sie können einen Benutzer auch von einer bestimmten Unterwebsite verbannen, indem Sie verhindern, dass gelöschte Benutzer bei der Synchronisierung mit der Hauptliste erneut gefüllt werden. Schützen Sie Identitäten, bleiben Sie synchron und sparen Sie unzählige Stunden mit der Benutzersynchronisierung. Erhalten Sie eine verknüpfte Benutzerverwaltung zum Übertragen von Benutzerkonten von einer Hauptliste auf alle Ihre WordPress-Sites.
+Du kannst einen Benutzer auch von einer bestimmten Unterwebseite verbannen, indem Du verhinderst, dass gelöschte Benutzer bei der Synchronisierung mit der Hauptliste erneut gefüllt werden. Schütze Identitäten, bleibe synchron und spare unzählige Stunden mit der Benutzersynchronisierung. Erhalte eine verknüpfte Benutzerverwaltung zum Übertragen von Benutzerkonten von einer Hauptliste auf alle Deine WordPress basierenden-Webseiten.
 
 ##  Verwendung
 
-###  So installieren Sie:
+###  So installierst Du:
 
-1. Laden Sie die Plugin-Datei herunter. 2 \. Entpacken Sie die Datei in einen Ordner auf Ihrer Festplatte. 3 \. Laden Sie den Ordner ** / user-sync / ** in den Ordner ** / wp-content / plugins / ** auf den Sites hoch, zwischen denen Sie synchronisieren möchten. 4 \. Melden Sie sich bei Ihrem Admin-Panel für Ihre WordPress-Site an und aktivieren Sie das User Synchronisztion-Plugin in ** Plugins ** .
+1. Lade die Plugin-Datei herunter. 2 \. Entpacke die Datei in einen Ordner auf Deiner Festplatte. 3 \. Lade den Ordner ** / benutzer-sync / ** in den Ordner ** /wp-content/plugins/ ** auf den Webseiten hoch, zwischen denen Du synchronisieren möchtest. 4 \. Melde Dich bei Deinem Admin-Panel für Deine Webseite an und aktiviere das User Synchronisztion-Plugin in ** Plugins ** .
 
 ###  Zu verwenden:
 
-Sobald das Plugin aktiviert ist, wird ein neues "User Sync" -Menü hinzugefügt. 1. Gehen Sie im Dashboard der Site, die Sie zur Master-Site machen möchten, zu ** User Sync ** .
+Sobald das Plugin aktiviert ist, wird ein neues "User Sync" -Menü hinzugefügt. 1. Gehe im Dashboard der Webseite, die Du zur Master-Site machen möchtest, zu ** User Sync ** .
 
-*    Dies ist die übergeordnete Site, mit der alle Benutzer mit Ihren anderen Sites synchronisiert / dupliziert werden
+*    Dies ist die übergeordnete Webseite, mit der alle Benutzer mit Deinen anderen Webseiten synchronisiert/dupliziert werden
 
-2. Klicken Sie auf ** Diese Site zur Master-Site machen ** 
+2. Klicke auf ** Diese Webseite zur Master-Seite machen ** 
 
- 3. Jetzt werden Ihre Master-Site-URL und Ihr Sicherheitsschlüssel angezeigt. 
+ 3. Jetzt werden Deine Master-Seiten-URL und Dein Sicherheitsschlüssel angezeigt. 
 
-4. Melden Sie sich nun bei den Dashboard-Sites an, mit denen Sie Benutzer von der Master-Site synchronisieren möchten, und gehen Sie zu ** Benutzersynchronisierung **. 5. Klicken Sie auf ** Dies ist eine Sub-Site **. 
+4. Melde Dich nun bei den Dashboard-Webseiten an, mit denen Du Benutzer von der Master-Seite synchronisieren möchtest, und gehe zu ** Benutzersynchronisierung **. 5. Klicke auf ** Dies ist eine Sub-Seite **. 
 
-6. Fügen Sie die URL der Master-Site und den Schlüssel der Master-Site hinzu, wählen Sie Standardeinstellungen aus und klicken Sie auf ** Diese Site mit der Master-Site verbinden und eine VOLLSTÄNDIGE Synchronisierung durchführen ** .
+6. Füge die URL der Master-Seite und den Schlüssel der Master-Seite hinzu, wähle Standardeinstellungen aus und klicke auf ** Diese Seite mit der Master-Seite verbinden und eine VOLLSTÄNDIGE Synchronisierung durchführen ** .
 
-*    Verwenden Sie vorhandene Benutzer mit _ ** Vorsicht überschreiben ** _ - überschreibt vorhandene Benutzer und sperrt ein Administrator-Benutzerkonto, wenn sie denselben Benutzernamen verwenden
-*    Überschreiben Sie keine vorhandenen Benutzer (fügen Sie sie als zusätzliche Benutzer hinzu) ist normalerweise die beste Option. Wenn Sie diese Option verwenden und ein Benutzer von der Master-Site denselben Benutzernamen wie die Unterwebsite hat, wird der neue Benutzer mit dem Suffix _sync erstellt, das an seinen Benutzernamen angehängt ist. Beispielsweise. Wenn der Benutzername admin bereits auf beiden Sites vorhanden wäre, würde der Benutzername auf der Unterwebsite als admin_sync erstellt.
+*    Verwende  _ ** Vorhandene Benutzer überschreiben ** _ mit Vorsicht - überschreibt vorhandene Benutzer und sperrt ein Administrator-Benutzerkonto, wenn sie denselben Benutzernamen verwenden
+*    Überschreibe keine vorhandenen Benutzer (füge sie als zusätzliche Benutzer hinzu) ist normalerweise die beste Option. Wenn Du diese Option verwendest und ein Benutzer von der Master-Seite denselben Benutzernamen wie die Unterwebseite hat, wird der neue Benutzer mit dem Suffix _sync erstellt, das an seinen Benutzernamen angehängt ist. Beispielsweise. Wenn der Benutzername admin bereits auf beiden Webseiten vorhanden wäre, würde der Benutzername auf der Unterwebseite als admin_sync erstellt.
 
-7. Alle neuen Benutzer auf der Master-Site werden auf den Unterwebsites repliziert, einschließlich Kennwörtern, E-Mails und Benutzerrollen. Sie werden nun in der Benutzerliste der Unterwebsite aufgeführt. 8. Wenn jetzt ein neuer Benutzer zur Master-Site hinzugefügt wird, werden diese automatisch mit denselben Details auf den Unterwebsites erstellt. 9. Um eine Unterwebsite zu entfernen, damit sie nicht mehr mit der Master-Site synchronisiert wird, müssen Sie nur in der ** Benutzersynchronisierung der Unterwebsite ** auf ** Von der Master-Site trennen ** klicken . 
+7. Alle neuen Benutzer auf der Master-Seite werden auf den Unterwebsites repliziert, einschließlich Kennwörtern, E-Mails und Benutzerrollen. Sie werden nun in der Benutzerliste der Unterwebseite aufgeführt. 8. Wenn jetzt ein neuer Benutzer zur Master-Seite hinzugefügt wird, werden diese automatisch mit denselben Details auf den Unterwebseiten erstellt. 9. Um eine Unterwebseite zu entfernen, damit sie nicht mehr mit der Master-Seite synchronisiert wird, musst Du nur in der ** Benutzersynchronisierung der Unterwebseite ** auf ** Von der Master-Seite trennen ** klicken . 
 
-10 \. Um das Plugin zu deinstallieren oder alle Einstellungen des Plugins zurückzusetzen, klicken Sie einfach unten auf der Seite auf ** "Deinstallationsoptionen" ** .
+10 \. Um das Plugin zu deinstallieren oder alle Einstellungen des Plugins zurückzusetzen, klicke einfach unten auf der Seite auf ** "Deinstallationsoptionen" ** .
 
 ###  Debug-Modus:
 
-Wenn Sie Probleme mit Synchronisierungsbenutzern haben, können Sie den Debug-Modus zum Schreiben einiger Vorgänge in die Protokolldatei verwenden. ** Verwendung: ** 1 \. Aktivieren Sie das Kontrollkästchen "Debug-Modus verwenden" auf der Haupt-Plugin-Seite, bevor Sie "Master" oder "Sub-Site" auswählen.
+Wenn Du Probleme mit Synchronisierungsbenutzern hast, kannst Du den Debug-Modus zum Schreiben einiger Vorgänge in die Protokolldatei verwenden. ** Verwendung: ** 1 \. Aktiviere das Kontrollkästchen "Debug-Modus verwenden" auf der Haupt-Plugin-Seite, bevor Du "Master" oder "Sub-Seite" auswählst.

@@ -3,7 +3,7 @@
 Plugin Name: Benutzer Synchronisation
 Plugin URI: https://n3rds.work/piestingtal-source-project/ps-benutzer-sync/
 Description: Benutzersynchronisierung - Mit diesem Plugin kannst Du eine Master-Seite erstellen, von der aus Du eine Benutzerliste mit beliebig vielen anderen Seiten synchronisieren kannst. Sobald diese aktiviert ist, kannst Du <a href="admin.php?page=user-sync">hier starten</a>
-Version: 1.2.1
+Version: 1.2.2
 Author: WMS N@W
 Author URI: https://n3rds.work
 Text Domain: user-sync

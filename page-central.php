@@ -46,12 +46,12 @@
                         if ( "Bearbeiten" == jQuery( this ).val() ) {
                             jQuery( "#settings_" + id + " input" ).attr( 'disabled', false );
                             jQuery( "#settings_" + id + " label" ).attr( 'class', '' );
-                            jQuery( this ).val('Close');
+                            jQuery( this ).val('Schließen');
                             jQuery( "input[value=Bearbeiten]" ).attr( 'disabled', true );
                             return;
                         }
 
-                        if ( "Close" == jQuery( this ).val() ) {
+                        if ( "Schließen" == jQuery( this ).val() ) {
                             jQuery( this ).val('Bearbeiten');
                             jQuery( "input[value=Bearbeiten]" ).attr( 'disabled', false );
                             return;
@@ -60,7 +60,7 @@
 
                     jQuery( "#sub_list label" ).on("click", function () {
                         if ( ! jQuery( this ).find( 'input.sett' ).attr( 'disabled' ) ) {
-                            jQuery( "input[value=Close]" ).val( 'Save' );
+                            jQuery( "input[value=Schließen]" ).val( 'Save' );
                         }
 
                     });
