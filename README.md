@@ -18,11 +18,11 @@ Du kannst einen Benutzer auch von einer bestimmten Unterwebseite verbannen, inde
 
 ##  Verwendung
 
-###  So installierst Du:
+###  So installierst Du Benutzer-Sync:
 
 1. Lade die Plugin-Datei herunter. 2 \. Entpacke die Datei in einen Ordner auf Deiner Festplatte. 3 \. Lade den Ordner ** / benutzer-sync / ** in den Ordner ** /wp-content/plugins/ ** auf den Webseiten hoch, zwischen denen Du synchronisieren möchtest. 4 \. Melde Dich bei Deinem Admin-Panel für Deine Webseite an und aktiviere das User Synchronisztion-Plugin in ** Plugins ** .
 
-###  Zu verwenden:
+###  Verwenden von Benutzer-Sync:
 
 Sobald das Plugin aktiviert ist, wird ein neues "User Sync" -Menü hinzugefügt. 1. Gehe im Dashboard der Webseite, die Du zur Master-Site machen möchtest, zu ** User Sync ** .
 
