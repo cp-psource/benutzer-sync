@@ -72,7 +72,7 @@ Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktion
 1. Lade die Plugin-Datei herunter. 
 2. Entpacke die Datei in einen Ordner auf Deiner Festplatte. 
 3. Lade den Ordner ** / benutzer-sync / ** in den Ordner ** /wp-content/plugins/ ** auf den Webseiten hoch, zwischen denen Du synchronisieren möchtest. 
-4 . Melde Dich bei Deinem Admin-Panel für Deine Webseite an und aktiviere das User Synchronisztion-Plugin in ** Plugins ** .
+4. Melde Dich bei Deinem Admin-Panel für Deine Webseite an und aktiviere das Benutzer Synchronisation-Plugin in ** Plugins ** .
 
 = Verwenden von Benutzer-Sync: =
 
