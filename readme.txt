@@ -43,9 +43,9 @@ Erhalte eine verknüpfte Benutzerverwaltung zum Übertragen von Benutzerkonten v
 = Hilfe und Support =
 
 [Projektseite](https://n3rds.work/piestingtal-source-project/ps-benutzer-sync/)
-[Handbuch](https://n3rds.work/docs/globale-seitensuche-handbuch/)
-[Supportforum](https://n3rds.work/forums/forum/psource-support-foren/multisite-netzwerksuche-supportforum/)
-[GitHub](https://github.com/piestingtal-source/global-site-search)
+[Handbuch](https://n3rds.work/docs/ps-benutzer-sync-plugin-handbuch/)
+[Supportforum](https://n3rds.work/forums/forum/psource-support-foren/ps-benutzer-sync-plugin-supportforum/)
+[GitHub](https://github.com/piestingtal-source/benutzer-sync)
 
 == Mehr PSOURCE ==
 
