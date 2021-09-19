@@ -76,6 +76,8 @@ Mach eine [Spende per Überweisung oder PayPal](https://n3rds.work/spendenaktion
 
 = Verwenden von Benutzer-Sync: =
 
+Lies bitte erst das [Handbuch](https://n3rds.work/docs/globale-seitensuche-handbuch/)!
+
 Sobald das Plugin aktiviert ist, wird ein neues "User Sync" -Menü hinzugefügt. 
 
 1. Gehe im Dashboard der Webseite, die Du zur Master-Site machen möchtest, zu ** User Sync ** .
