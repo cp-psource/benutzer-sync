@@ -49,7 +49,7 @@ Erhalte eine verknüpfte Benutzerverwaltung zum Übertragen von Benutzerkonten v
 
 == Mehr PSOURCE ==
 
-Erweitere die Möglichkeiten von Netzwerksuche mit kompatiblen PSOURCE Plugins und Themes
+Erweitere die Möglichkeiten von Benutzer Synchronisation mit kompatiblen PSOURCE Plugins und Themes
 
 
 [POWERED BY PSOURCE](https://n3rds.work/psource_kategorien/psource-plugins/)
