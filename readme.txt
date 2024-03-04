@@ -1,6 +1,5 @@
 === Benutzer Synchronisation ===
 Contributors: DerN3rd (PSOURCE)
-Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
 Tags: benutzer, sync, wordpress
 Requires at least: 4.9
 Tested up to: 5.6
@@ -42,9 +41,7 @@ Erhalte eine verknüpfte Benutzerverwaltung zum Übertragen von Benutzerkonten v
 
 = Hilfe und Support =
 
-[Projektseite](https://n3rds.work/piestingtal-source-project/ps-benutzer-sync/)
-[Handbuch](https://n3rds.work/docs/ps-benutzer-sync-plugin-handbuch/)
-[Supportforum](https://n3rds.work/forums/forum/psource-support-foren/ps-benutzer-sync-plugin-supportforum/)
+[Projektseite](https://cp-psource.github.io/benutzer-sync/)
 [GitHub](https://github.com/piestingtal-source/benutzer-sync)
 
 == Mehr PSOURCE ==
