@@ -1,5 +1,5 @@
 === Benutzer Synchronisation ===
-Contributors: DerN3rd (WMS N@W)
+Contributors: DerN3rd (PSOURCE)
 Donate link: https://n3rds.work/spendenaktionen/unterstuetze-unsere-psource-free-werke/
 Tags: benutzer, sync, wordpress
 Requires at least: 4.9
@@ -115,4 +115,4 @@ Wenn Du Probleme mit Synchronisierungsbenutzern hast, kannst Du den Debug-Modus 
 = 1.2.2 = DerN3rd =
 
 * Overhauled von WPMUDEV
-* Release WMS N@W Netzwerksuche
+* Release PSOURCE Netzwerksuche

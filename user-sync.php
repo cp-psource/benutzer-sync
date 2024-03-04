@@ -1,16 +1,16 @@
 <?php
 /*
 Plugin Name: Benutzer Synchronisation
-Plugin URI: https://n3rds.work/piestingtal-source-project/ps-benutzer-sync/
+Plugin URI: https://cp-psource.github.io/ps-support/
 Description: Benutzersynchronisierung - Mit diesem Plugin kannst Du eine Master-Seite erstellen, von der aus Du eine Benutzerliste mit beliebig vielen anderen Seiten synchronisieren kannst. Sobald diese aktiviert ist, kannst Du <a href="admin.php?page=user-sync">hier starten</a>
 Version: 1.2.3
-Author: WMS N@W
-Author URI: https://n3rds.work
+Author: PSOURCE
+Author URI: https://github.com/cp-psource
 Text Domain: user-sync
 Domain Path: /languages
 
 
-Copyright 2020-2021 WMS N@W (https://n3rds.work)
+Copyright 2020-2024 PSOURCE (https://github.com/cp-psource)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License (Version 2 - GPLv2) as published by
@@ -45,12 +45,9 @@ class User_Sync {
     var $options;
 
 	/**
-	 * PHP 5 constructor
+	 * PHP 8 constructor
 	 **/
 	function __construct() {
-        /*global $wpmudev_notices;
-        $wpmudev_notices[] = array( 'id'=> 218,'name'=> 'User Synchronization', 'screens' => array( 'toplevel_page_user-sync' ) );
-        include_once( 'dash-notice/wpmudev-dash-notification.php' );*/
 
         load_plugin_textdomain( 'user-sync', false, basename( dirname( __FILE__ ) ) . '/languages' );
 
@@ -84,7 +81,6 @@ class User_Sync {
             add_action( 'run_user_password_reset_event', array( &$this, 'user_password_reset_event' ), 20, 2 );
 
         }
-        //add_action( 'bp_core_signup_after_activate', array( &$this, 'bp_users_activate' ), 20, 2 );
 
         add_action( 'wp_ajax_user_sync_sync_all', array( &$this, 'sync_all_subsite' ) );
 
@@ -106,7 +102,6 @@ class User_Sync {
     function admin_page() {
         add_menu_page( __( 'Benutzer Sync', 'user-sync' ), __( 'Benutzer Sync', 'user-sync' ), 'manage_options', 'user-sync', array( &$this, 'plugin_page' ), $this->plugin_url . 'images/icon.png' );
     }
-
 
     /**
      * set options
@@ -156,7 +151,6 @@ class User_Sync {
         }
     }
 
-
     /**
      * Write log
      **/
@@ -176,7 +170,6 @@ class User_Sync {
             fclose($handle);
         }
     }
-
 
     /**
      * Adding css style and script for admin page
@@ -199,7 +192,6 @@ class User_Sync {
             wp_enqueue_style('user-sync-mp6');
         }
     }
-
 
     /**
      * plugin actions

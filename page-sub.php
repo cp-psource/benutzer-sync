@@ -138,7 +138,7 @@
 
                         <p>
                             <?php _e( "Ausführliche Anweisungen zur Verwendung findest Du unter:", 'user-sync' ) ?><br />
-                            <a href="https://n3rds.work/piestingtal-source-project/ps-benutzer-sync/" target="_blank" ><?php _e( 'Anweisungen zur Installation und Verwendung der WordPress-Benutzersynchronisierung.', 'user-sync' ) ?></a>
+                            <a href="https://cp-psource.github.io/ps-support/" target="_blank" ><?php _e( 'Anweisungen zur Installation und Verwendung der WordPress-Benutzersynchronisierung.', 'user-sync' ) ?></a>
                         </p>
 
                 </form>

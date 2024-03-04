@@ -20,7 +20,7 @@
                 <p><?php _e( 'NB: Du musst mindestens eine Master-Seite haben!', 'user-sync' ) ?></p>
                 <p>
                     <?php _e( "Ausführliche Anweisungen zur Verwendung findest Du unter:", 'user-sync' ) ?><br />
-                    <a href="https://n3rds.work/piestingtal-source-project/ps-benutzer-sync/" target="_blank" ><?php _e( 'Anweisungen zur Installation und Verwendung der WordPress-Benutzersynchronisierung.', 'user-sync' ) ?></a>
+                    <a href="https://cp-psource.github.io/ps-support/" target="_blank" ><?php _e( 'Anweisungen zur Installation und Verwendung der WordPress-Benutzersynchronisierung.', 'user-sync' ) ?></a>
                 </p>
 
                 <?php
@@ -37,7 +37,7 @@
                                 <p class="debug_message" >
 
                                     <?php _e( 'Hinweis: Wenn Du Probleme mit Synchronisierungsbenutzern hast, kannst Du den Debug-Modus zum Schreiben einiger Vorgänge in die Protokolldatei verwenden. Zum Schreiben benötigst Du den Ordner "plugins/user-sync/log/" beschreibbar. Was tun mit Protokolldateien, die Du in der Anleitung des Plugins lesen kannst erfährst', 'user-sync' );  ?>
-                                    <a href="https://n3rds.work/piestingtal-source-project/ps-benutzer-sync/" target="_blank" ><?php _e( 'hier', 'user-sync' ) ?></a>
+                                    <a href="https://cp-psource.github.io/ps-support/" target="_blank" ><?php _e( 'hier', 'user-sync' ) ?></a>
                                     <br /><br />
                                     <input type="checkbox" name="debug" id="debug" value="1" />
                                     <label for="debug"><?php _e( 'Verwende den Debug-Modus', 'user-sync' ) ?></label>
